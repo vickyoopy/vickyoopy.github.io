@@ -1,0 +1,278 @@
+/*-------
+// global reset
+//-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ol,
+ul {
+    list-style: none;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+a:link:hover,
+a:visited:hover {
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+a {
+    color: #1c6cbe;
+    text-decoration: underline;
+}
+a:hover {
+    color: #1c6cbe;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+h2 {
+    font-family: "宋体", Georgia;
+    color: #5d5d5d;
+    font-size: 120%;
+    padding: 0 5%;
+    font-weight: 500;
+}
+body {
+    font-family: "宋体", Georgia;
+    margin: 0;
+    padding: 0;
+    color: #5d5d5d;
+    text-shadow: 0 0px, 1px 1px #ffffff;
+    background: url(images/siteBackground.jpg);
+    font-size: 100%;
+    height: 2500px;
+}
+container1 {
+    background: url(images/shad2.png) right no-repeat;
+    background-size: contain;
+    position: fixed;
+    width: 10%;
+    float: left;
+    height: 100%;
+}
+container2 {
+    width: 89%;
+    height: 2500px;
+    position: relative;
+    float: right;
+}
+container3 {}
+/*------------Header-------------*/
+
+div#header {
+    padding-left: 15px;
+    padding-top: 30px;
+    color: #BD1111;
+    font-family: Comic Sans MS;
+    font-size: 190%;
+    font-weight: 500;
+    text-decoration: none;
+}
+/*------------Navigation-------------*/
+
+div#navigation {
+    background: url(images/10.png) 70px no-repeat;
+    background-size: contain;
+    color: #BD1111;
+    font-size: 110%;
+    margin-top: 30px;
+    padding: 15px 20px 10px 15px;
+}
+div#navigation ul li a {
+    position: relative;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: #BD1111;
+    list-style: none;
+    width: 70px;
+    display: block;
+    -webkit-background-size: 50% 100%;
+    -webkit-transition: all 0.1s ease-out;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-box-shadow: 2px 2px 2px #BD1111;
+    padding: 7px 7px 7px 10px;
+}
+div#navigation ul li a:hover {
+    position: relative;
+    color: #BD1111;
+    padding: 7px 7px 7px 35px;
+}
+/*------------Content-------------*/
+
+div#boxes {
+    -webkit-column-count: 5;
+    -webkit-column-gap: 8px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 5;
+    -moz-column-gap: 8px;
+    -moz-column-fill: auto;
+    column-count: 5;
+    column-gap: 8px;
+    column-fill: auto;
+    float: left;
+}
+div#box {
+    width: 95%;
+    background: #FFF;
+    display: inline-block;
+    box-shadow: 1px 1px 1px 0px rgba(34, 25, 25, 0.4);
+    margin: 0 0 10% 0;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+div#picPreview {
+    padding: 5%;
+}
+div#picPreview a:hover img {
+    box-shadow: 0 0 12px 0 #45463d;
+}
+div#box p {
+    padding: 5%;
+    font-size: 90%;
+}
+div#clearfloat {
+    clear: both;
+    height: 0;
+    line-height: 0px;
+}
+/*------------search-------------*/
+
+div#sea {
+    color: #5d5d5d;
+    font-size: 90%;
+    float: left;
+}
+div#sea p {
+    margin-top: 2px;
+    font-size: 110%;
+    color: #BD1111;
+}
+input {
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    margin: 2px 0px;
+    font-family: inherit;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+    /* remove the search and cancel icon */
+}
+#demo-b input[type=search] {
+    background: #ededed url(images/search-icon.png) no-repeat right;
+    padding: 5px;
+    -webkit-border-radius: 5em;
+    -webkit-transition: all .5s;
+    cursor: pointer;
+    width: 150px;
+    cursor: auto;
+}
+#demo-b input::-webkit-input-placeholder {
+    color: transparent;
+}
+/*------------poem menu-------------*/
+
+div#menu {
+    margin: 5px 0px;
+}
+div#menu ul {
+    list-style: none;
+}
+div#menu li {
+    float: left;
+    background: #003366;
+    //opacity: 0.9;
+    color: #FFF;
+    width: 80px;
+    margin-right: 5px;
+    line-height: 25px;
+    font: 90%;
+    text-decoration: none;
+    text-shadow: none;
+}
+div#menu a {
+    display: block;
+    text-align: center;
+    color: #FFF;
+    font: 90%;
+    height: 25px;
+    text-decoration: none;
+}
+div#menu a:link {
+    text-decoration: none;
+}
+div#menu a:visited {
+    text-decoration: none;
+}
+div#menu a:hover {
+    text-decoration: none;
+    background: url(/Users/vickyoopy/Desktop/website/vickyoopy.github.io/poems/images/4.png) #BD1111;
+    background-size: contain;
+}
+/*------------footer-------------*/
+
+footer {
+    text-align: center;
+}
+/*********************************Begin Media Queries****************************************/
+
+/**************************/
+
+/* for 960px or less */
+
+@media screen and (max-width: 960px) {
+    .wrapper {
+        width: 93.75%;
+        /* 960px/1024px  */
+        margin: 0 auto;
+    }
+}
+/* for 768px or less */
+
+@media screen and (max-width: 768px) {
+    .boxes {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+    nav ul {
+        display: none;
+    }
+    nav select {
+        display: inline-block;
+    }
+}
+/* for 480px or less */
+
+@media screen and (max-width: 480px) {
+    .boxes {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    h1 a {
+        font-size: 0.7em;
+    }
+}
+/**************************/
+
+/*********************************End Media Queries****************************************/

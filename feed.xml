@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:E7989CEB-6A1B-48F4-B04F-7B06630A3CC5</id>
+ <title>Page list Atom feed</title>
+ <updated>2014-04-06T13:11:02+08:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:5420109F-7D55-435A-8195-279D3392EF0E</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">5420109F-7D55-435A-8195-279D3392EF0E</in-navbar>
+  <link rel="alternate" href="Home.html"/>
+  <updated>2014-04-06T13:11:02.001+08:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:092FE0BF-AEE8-486F-ADB7-C03873C7A9C9</id>
+  <title>blog</title>
+  <title xmlns="urn:iweb:">blog</title>
+  <in-navbar xmlns="urn:iweb:">092FE0BF-AEE8-486F-ADB7-C03873C7A9C9</in-navbar>
+  <link rel="alternate" href="blog.html"/>
+  <updated>2014-04-06T13:11:02.002+08:00</updated>
+  <content>blog</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:BD038E73-0DB1-4399-8D3D-7994C54AFA35</id>
+  <title>favorite</title>
+  <title xmlns="urn:iweb:">favorite</title>
+  <in-navbar xmlns="urn:iweb:">BD038E73-0DB1-4399-8D3D-7994C54AFA35</in-navbar>
+  <link rel="alternate" href="favorite.html"/>
+  <updated>2014-04-06T13:11:02.003+08:00</updated>
+  <content>favorite</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:8D5703C6-C3E7-4740-BBDC-FC110CE7C52D</id>
+  <title>forum</title>
+  <title xmlns="urn:iweb:">forum</title>
+  <in-navbar xmlns="urn:iweb:">8D5703C6-C3E7-4740-BBDC-FC110CE7C52D</in-navbar>
+  <link rel="alternate" href="forum.html"/>
+  <updated>2014-04-06T13:11:02.004+08:00</updated>
+  <content>forum</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:6FEE5175-324A-412C-A577-DC745B6140B1</id>
+  <title>wooow</title>
+  <title xmlns="urn:iweb:">wooow</title>
+  <in-navbar xmlns="urn:iweb:">6FEE5175-324A-412C-A577-DC745B6140B1</in-navbar>
+  <link rel="alternate" href="wooow.html"/>
+  <updated>2014-04-06T13:11:02.005+08:00</updated>
+  <content>wooow</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:7B714BCB-0E64-405A-8239-BE0668197C3E</id>
+  <title>Photo</title>
+  <title xmlns="urn:iweb:">Photo</title>
+  <in-navbar xmlns="urn:iweb:">7B714BCB-0E64-405A-8239-BE0668197C3E</in-navbar>
+  <link rel="alternate" href="Photo.html"/>
+  <updated>2014-04-06T13:11:02.006+08:00</updated>
+  <content>Photo</content>
+ </entry>
+</feed>
